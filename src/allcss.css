@@ -1,0 +1,72 @@
+/* Hiding scroll bar */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.my-nav{
+    background-color: rgb(49, 45, 45);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.bodyComponent{
+    margin: 65px 0;
+    overflow: hidden;
+}
+a{
+    margin: 20px;
+    color: white;
+}
+
+img{
+    margin: 20px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.bord{
+    background-color: rgb(247, 248, 248);
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    
+}
+
+.btn{
+    margin-bottom: 5px;
+}
+
+.footer{
+    background-color: rgb(49, 45, 45);
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p{
+    margin:0 ;
+}
